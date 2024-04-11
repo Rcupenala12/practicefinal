@@ -15,9 +15,9 @@ class RenetteWasHere extends HTMLElement{
 
 customElements.define("x-renette" ,RenetteWasHere);
 
-classTwoSidedMarket extends HTMLElement{
+class TwoSidedMarket extends HTMLElement{
 	 connectedCallback(){
-		 this.innerHTML= <a href="side a">odd jobs</a>&nbsp;<a href="side b">products</a>;
+		 this.innerHTML= `<a href="side a">odd jobs</a>&nbsp;<a href="side b">products</a>`;
 			 
 	 }
 }
